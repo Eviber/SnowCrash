@@ -1,0 +1,7 @@
+- So ! We tried to find the flag. 
+- Open the file /etc/passwd
+- We found a hash at the line of flag01
+- We used hashcat which indicated that it's DES encryption.
+- We downloaded rockyou.txt (dictionnary)
+- Executed hashcat with the hash (DES) we found and the dictionnary for parameters
+- TADAAAAAAAAAAAAAAAAAAAAAAAA :)   
